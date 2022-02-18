@@ -1,0 +1,85 @@
+.header_section1 {
+    display: flex;
+    margin: 30px;
+    margin-left: 50px;
+    border-bottom: 1px solid rgb(214, 208, 208);
+  }
+  .header_p {
+    margin-right: 200px;
+  }
+  .header_i {
+    margin-top: 20px;
+  }
+  .header_link {
+    margin-left: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header_link a {
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: rgb(16, 16, 179);
+    color: white;
+    font-size: 1.1em;
+  }
+  .header_link a:hover {
+    background-color: black;
+    border: black;
+    transition: 0.1s;
+    cursor: pointer;
+  }
+  .empty {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  /* HEADER SECTION 2 */
+  
+  .header_section2{
+    display: flex;
+    margin: 40px;
+    border-bottom: 1px solid rgb(214, 208, 208);
+    padding-bottom: 30px;
+  }
+  .header_logo{
+    margin-right: 350px;
+  }
+  .header_localisation{
+    margin-left: 110px;
+    margin-top: 40px;
+  }
+  .header_address{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding-right: 10px;
+    height: 65px;
+    border-right: 1px solid rgb(214, 208, 208);
+  }
+  .header_telephone{
+    margin-top: 20px;
+  }
+  .header_phone{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-right: 8px;
+    height: 65px;
+    border-right: 1px solid rgb(214, 208, 208);
+  }
+  .header_clock{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .header_hour{
+    margin-top: 10px;
+  }
+
+  .nav_bar{
+      display: flex;
+  }
+  
+  
