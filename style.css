@@ -1,4 +1,4 @@
-/* ******************************* HEADER 1 ****************************** */
+/* ******************************* HEADER1 ****************************** */
 
 .first_header{
   display: flex;
@@ -56,7 +56,7 @@ margin-right: 20px;
 }
 
 
-/* ******************************* HEADER 2 ****************************** */
+/* ******************************* HEADER2 ****************************** */
 .header{
   display: flex;
   margin-left: 80px;  
@@ -96,17 +96,10 @@ margin-right: 20px;
   color: rgb(226, 109, 109);
 }
 
-/* .nav_bar ul{
-  display: flex;
-  list-style: none;
-  margin-left: 230px;
-  margin-top: 30px;
-} */
-
-/* **************************HEADER TWITTER*********************************** */
+/* ************************** HEADER3 NAVBAR *********************************** */
 
 .header_twitter{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -133,4 +126,61 @@ nav ul {
 nav li {
  display: inline-block;
  margin-left: 25px;
+}
+
+.header_twitex{
+  float: left;
+  /* font-size: 1.1em; */
+}
+
+/* ****************************************** TWO SECTIONS ********************************************************  */
+.Container-section3 {
+  display: flex;
+  margin-top: 65px;
+  margin-bottom: none;
+}
+.row4 {
+  float: left;
+ 
+}
+
+.row5 {
+  float: right;
+}
+
+/* ****************************************** THREE SECTIONS ********************************************************  */
+
+.Container-section4{
+  /* background-color: aquamarine; */
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.Container-section4 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.Container-section4 h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.row6{
+  width: 33.3%;
+}
+
+.row7{
+  width: 33.3%;
+  border-left: 1px solid black;
+}
+
+.row8{
+  width: 33.3%;
+  float: left;
+  border-left: 1px solid black;
 }
